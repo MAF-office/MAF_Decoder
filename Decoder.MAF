@@ -47,11 +47,11 @@ def load(word):
 def banner_dec():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "Zucker / MAF"')
+    os.system('figlet -f slant "MAF"')
 def banner_enc():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "Zucker / MAF"')
+    os.system('figlet -f slant "MAF"')
 def running(s):
 	try:
 		for c in s + '\n':
