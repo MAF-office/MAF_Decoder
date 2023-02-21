@@ -47,11 +47,11 @@ def load(word):
 def banner_dec():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "MAF"')
+    os.system('figlet -f slant "MAF office"')
 def banner_enc():
     banner = '''{}'''.format(m)
     print(banner)
-    os.system('figlet -f slant "MAF"')
+    os.system('figlet -f slant "MAF office"')
 def running(s):
 	try:
 		for c in s + '\n':
@@ -97,10 +97,10 @@ def logo():
 def b_menu():
     jalan("""
 -----------.        .-----------
-  ------    \  __  /    ------
+  ------  M \  __  /  F ------
     -----    \(  )/    -----
        ---   ' \/ `   ---
-         --- :    : ---
+         --- :  A  : ---
            --`    '--
            `/`/..\`\`
         ====UU====UU====
@@ -114,10 +114,10 @@ def menu():
     running('\n{}[{}1{}]{} MAF / DECODER\n{}[{}2{}]{} Zucker / DECODER \n'.format(m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p))
     asww = raw_input('{}[{}*{}]{} RUBIKA : @MAF_office \n Choose {}>> {}'.format(m,p,m,p,k,p))
     if asww == '1' or asww == '01':
-	load('Running...')
+	load('Running >>> ')
 	menu_enc()
     elif asww == '2' or asww == '02':
-	load('Running...')
+	load('Running >>> ')
 	menu_dec()
     elif asww == '':
 	run('Huh?')
