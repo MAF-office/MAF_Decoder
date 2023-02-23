@@ -112,7 +112,7 @@ def menu():
     clr()
     b_menu()
     running('\n{}[{}1{}]{} MAF / ENCODER\n{}[{}2{}]{} Zucker / DECODER \n'.format(m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p,m,p))
-    asww = raw_input('{}[{}*{}]{} RUBIKA : @MAF_office \n Choose {}>> {}'.format(m,p,m,p,k,p))
+    asww = raw_input('{}[{}*{}]{} RUBIKA : @Zucker_BiG \n Choose {}>> {}'.format(m,p,m,p,k,p))
     if asww == '1' or asww == '01':
 	load('Running >>> ')
 	menu_enc()
